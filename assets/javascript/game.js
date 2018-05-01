@@ -75,12 +75,25 @@ $(document).ready(function (){
             alert("You win!");
             victories++;
             $("#victories").text(victories);
+            $("#number-to-guess").empty();
+            $("#counter").empty();
+            counter = 0;
+            targetNumber = Math.floor(Math.random()* 120)+ 19;
+            
+            $("#number-to-guess").text(targetNumber);
+            
         }
 
             else if (counter >= targetNumber) {
             alert("You lose!!");
             losses++;
             $("#losses").text(losses);
+            $("#number-to-guess").empty();
+            $("#counter").empty();
+            counter = 0;
+            targetNumber = Math.floor(Math.random() * 120)+ 19;
+            $("#number-to-guess").text(targetNumber);
+            
 
         }
 
