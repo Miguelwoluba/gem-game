@@ -1,0 +1,40 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #778899;
+}
+
+header {
+    background-image: url("../images/thanos.jpg");
+    width: 1040px;
+    height: 742px;
+    color: whitesmoke;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+
+}
+
+#number-to-guess{
+    font-size: 30px;
+    color:whitesmoke;
+}
+
+h3{
+    font-size: 30px;
+    color:whitesmoke;
+    margin: 50px;
+}
+
+#crystals{
+    margin: 50px;
+}
+
+img{
+    border-radius: 10px;
+    
+}
